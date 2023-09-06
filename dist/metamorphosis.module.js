@@ -23,8 +23,8 @@ let MetamorphosisModule = MetamorphosisModule_1 = class MetamorphosisModule {
         };
     }
 };
-MetamorphosisModule = MetamorphosisModule_1 = __decorate([
+exports.MetamorphosisModule = MetamorphosisModule;
+exports.MetamorphosisModule = MetamorphosisModule = MetamorphosisModule_1 = __decorate([
     (0, common_1.Module)({})
 ], MetamorphosisModule);
-exports.MetamorphosisModule = MetamorphosisModule;
 //# sourceMappingURL=metamorphosis.module.js.map

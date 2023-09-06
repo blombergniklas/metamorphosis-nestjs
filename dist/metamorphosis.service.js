@@ -35,9 +35,9 @@ let ConversionService = class ConversionService {
         return Promise.all(sourceArray.map(sourceObj => this.convert(sourceObj, itemTargetClass)));
     }
 };
-ConversionService = __decorate([
+exports.ConversionService = ConversionService;
+exports.ConversionService = ConversionService = __decorate([
     (0, common_1.Injectable)(),
     __metadata("design:paramtypes", [Object, Array])
 ], ConversionService);
-exports.ConversionService = ConversionService;
 //# sourceMappingURL=metamorphosis.service.js.map
